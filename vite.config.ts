@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/veterinary-clinic-website-hyderabad/',
   resolve: {
     alias: {
       // Alias @ to the src directory
