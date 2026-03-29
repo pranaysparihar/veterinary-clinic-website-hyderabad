@@ -56,4 +56,6 @@ export const router = createBrowserRouter([
       { path: "*", Component: NotFound },
     ],
   },
-]);
+], {
+  basename: "/veterinary-clinic-website-hyderabad"
+});
